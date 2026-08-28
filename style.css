@@ -1,51 +1,47 @@
-  body {
-        background-color: rgb(167, 169, 192);
-        color: #181029;
-        margin: 5;
-        padding: 50;
-        line-height: 1.6;
-    }
+body {
+    text-align: center;
+}
 
-    h1 {
-        font-size: 2rem;
-        font-weight: 400;
-        text-align: center;
-        letter-spacing:1rem ;
-        padding: 12px;
-    }
+ul {
+    list-style: none;
+}
 
-    header {
-        border-bottom: 5px solid rgb(84, 2, 95);
-        padding: 5px;
-        align-items: center;
-        margin-bottom: 6px;
-    }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
-    nav ul {
-        list-style: none;
-        display: flex;
-        gap:10 px;
-    }
+nav ul {
 
+    display: flex;
+    gap: 20px;
+}
 
-    nav li {
-        display: inline-block;
-        margin: 0 15px;
-    }
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px;
+    margin: 50px;
+}
 
-      nav a {
-        color: #701368;
-        font-size: 30px;
-      }
+main section {
+    flex: 1;
+    min-width: 280px;
+    border: 2px solid black;
+    padding: 20px;
+}
 
-      nav a:hover {
-        color: #110ecf;
-      }
-    
-     .my-services{color:rgb(0, 0, 0)
-     }
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
-     .about-me{color:rgb(5, 230, 35)
-     }
-
-
+#services {
+    padding: 0 50px;
+    color: #0106fa;
+}
