@@ -20,9 +20,12 @@ function greet(greetings, names = ["Carl", "bal", "tol", "bai", "perd"]) {
 }
 console.log(greet("Mayung aga", ["Carl", "bal", "tol", "bai", "perd"]));
 
-const heading = document.querySelector("Title");
+const heading = document.querySelector("h1");
 heading.textContent = "Dennis S. Ella";
-console.log(heading.textContent);
+heading.style.color = "purple";
+heading.style.backgroundColor = "yellow";
+heading.style.fontSize = "100px";
+console.log(heading);
 
 const contactHeading = document.querySelector("#contact h2");
 console.log(contactHeading);
