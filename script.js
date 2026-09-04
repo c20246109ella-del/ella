@@ -20,11 +20,13 @@ function greet(greetings, names = ["Carl", "bal", "tol", "bai", "perd"]) {
 }
 console.log(greet("Mayung aga", ["Carl", "bal", "tol", "bai", "perd"]));
 
-const heading = document.querySelector("h1");
-console.log(heading);
+const heading = document.querySelector("Title");
+heading.textContent = "Dennis S. Ella";
+console.log(heading.textContent);
 
 const contactHeading = document.querySelector("#contact h2");
 console.log(contactHeading);
 
-const projectHeading = document.querySelector("#projects h2");
+const projectHeading = document.querySelector("#services h2");
 console.log(projectHeading);
+
